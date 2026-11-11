@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.profinal.V1Controller">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1280.0">
+         <image>
+            <Image url="@graficos/173428-windows_xp-microsoft_windows-microsoft_corporation-sistema_operativo-paisaje_natural-1920x1080.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="526.0" fitWidth="390.0" layoutX="24.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="520.0" fitWidth="390.0" layoutX="842.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="520.0" fitWidth="390.0" layoutX="431.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="312.0" fitWidth="400.0" layoutX="832.0" layoutY="586.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo%20(1).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="iraRadix" layoutX="134.0" layoutY="509.0" mnemonicParsing="false" onAction="#onActionButtonR" prefHeight="51.0" prefWidth="143.0" style="-fx-border-color: transparent;" text="IR A">
+         <font>
+            <Font name="Tahoma" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="iraTreeSort" layoutX="554.0" layoutY="509.0" mnemonicParsing="false" onAction="#onActionButtonT" prefHeight="51.0" prefWidth="143.0" style="-fx-border-color: transparent;" text="IR A">
+         <font>
+            <Font name="Tahoma" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="iraSelection" layoutX="966.0" layoutY="509.0" mnemonicParsing="false" onAction="#onActionButtonS" prefHeight="51.0" prefWidth="143.0" style="-fx-border-color: transparent;" text="IR A">
+         <font>
+            <Font name="Tahoma" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="bRun" layoutX="1109.0" layoutY="733.0" mnemonicParsing="false" onAction="#onActionButtonbR" prefHeight="35.0" prefWidth="103.0" style="-fx-border-color: transparent;" text="run">
+         <font>
+            <Font name="Tahoma" size="23.0" />
+         </font>
+      </Button>
+      <Text layoutX="839.0" layoutY="640.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INGRESA CUANTOS DATOS DESEAS ORDENAR Y TE MUESTRO EL RENDIMIENTO " wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="839.0" layoutY="686.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(minimo 10 y maximo 1.000.000)" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtDatos" layoutX="1068.0" layoutY="693.0" onAction="#onActionButtonbR" />
+      <Text layoutX="26.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RADIX SORT." textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="43.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A diferencia de los métodos tradicionales, Radix no compara números entre sí. En su lugar, los clasifica agrupándolos dígito por dígito (unidades, decenas, centenas). Esta estrategia le permite alcanzar velocidades lineales casi imbatibles O(n). Fue el motor detrás de las primeras máquinas tabuladoras del siglo XIX. Haz clic abajo para conocer cómo funciona." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="200.0" fitWidth="339.0" layoutX="49.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/IEZs8xJML3-radixsort_ed.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="433.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TREE SORT." textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="845.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SELECTION SORT." textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="865.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Un algoritmo intuitivo y de fuerza bruta. Funciona buscando pacientemente el elemento más pequeño del arreglo y colocándolo en su posición final. Es excelente para entender las bases de la programación, pero sufre de lentitud extrema al procesar grandes volúmenes de datos debido a su complejidad cuadrática O(n^2). Haz clic abajo para ver su historia y seudocódigo." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="181.0" fitWidth="184.0" layoutX="1009.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/images.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="449.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Un algoritmo elegante que aprovecha el poder de las estructuras de datos. Toma el arreglo desordenado y construye un Árbol Binario de Búsqueda. Al recorrer sus ramas de izquierda a derecha, los datos emergen perfectamente ordenados. Ofrece un gran rendimiento promedio de O(n log n). Haz clic abajo para explorar su arquitectura." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="200.0" fitWidth="339.0" layoutX="482.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/treesorttwo_1.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
