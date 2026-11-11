@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.profinal.seleccionController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1280.0">
+         <image>
+            <Image url="@graficos/173428-windows_xp-microsoft_windows-microsoft_corporation-sistema_operativo-paisaje_natural-1920x1080.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="520.0" fitWidth="390.0" layoutX="29.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="520.0" fitWidth="390.0" layoutX="465.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="29.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HISTORIA" textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="45.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Es uno de los algoritmos más antiguos y básicos de la informática. No tiene un inventor específico reconocido, ya que se basa en la lógica humana más intuitiva para ordenar cartas o libros: buscar el elemento más pequeño de todos y colocarlo al principio, repitiendo el proceso con los elementos restantes." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="31.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caracteristicas" textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="45.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Es un algoritmo de clasificación comparativa &quot;in-place&quot; (no requiere memoria extra)." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="45.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Es inestable (puede cambiar el orden relativo de elementos idénticos)." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="45.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Realiza el número mínimo de intercambios posibles (O(n) intercambios), pero es ineficiente en grandes volúmenes de datos." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="467.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RENDIMIENTO" textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="483.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tiempo: O(n^2) en todos los casos (mejor, promedio y peor)." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="483.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Espacio (Memoria): O(1) o tambien O(n)" wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="459.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEUDOCODIGO" textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="128.0" fitWidth="373.0" layoutX="475.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="312.0" fitWidth="400.0" layoutX="867.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="248.0" fitWidth="505.0" layoutX="748.0" layoutY="544.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo%20(1).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnVolver" layoutX="991.0" layoutY="224.0" mnemonicParsing="false" onAction="#onActionVolver" prefHeight="65.0" prefWidth="153.0" text="regresar" />
+      <ImageView fitHeight="213.0" fitWidth="304.0" layoutX="848.0" layoutY="579.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Gemini_Generated_Image_fa1fxgfa1fxgfa1f.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="312.0" fitWidth="400.0" layoutX="202.0" layoutY="580.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo%20(1).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="321.0" layoutY="710.0" mnemonicParsing="false" onAction="#onActionPrueba" prefHeight="46.0" prefWidth="163.0" text="INICIAR" />
+      <Text layoutX="226.0" layoutY="692.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIRA UNA PRUEBA EN VIVO!!!!" wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="108.0" layoutY="649.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALERTA!" textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="901.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Deseas regresar a la pantalla principal?       dale click al boton de abajo" wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

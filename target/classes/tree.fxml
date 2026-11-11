@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.profinal.treeController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1280.0">
+         <image>
+            <Image url="@graficos/173428-windows_xp-microsoft_windows-microsoft_corporation-sistema_operativo-paisaje_natural-1920x1080.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="520.0" fitWidth="390.0" layoutX="51.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="520.0" fitWidth="390.0" layoutX="484.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="39.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HISTORIA" textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="70.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Basado en la estructura matemática de los Árboles Binarios de Búsqueda (BST), desarrollados de manera independiente en 1960 por varios investigadores, incluyendo P.F. Windley, A.D. Booth y A.J.T. Colin." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="55.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caracteristicas" textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="70.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opera insertando todos los elementos de la matriz en un Árbol Binario de Búsqueda." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Una vez construido el árbol, extrae los elementos utilizando un recorrido &quot;Inorden&quot; (Izquierda - Raíz - Derecha) que los devuelve naturalmente ordenados." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="70.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Es eficiente con datos aleatorios, pero su rendimiento colapsa si los datos ya están ordenados y el árbol no se balancea (árbol degenerado)." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="485.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEUDOCODIGO" textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="224.0" fitWidth="376.0" layoutX="491.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/image3333.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="477.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RENDIMIENTO" textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="503.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tiempo: O(n \log n) en el mejor y promedio caso. O(n^2) en el peor caso (si el árbol queda como una línea recta)." wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="502.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Espacio (Memoria): O(n)" wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="248.0" fitWidth="505.0" layoutX="758.0" layoutY="554.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="248.0" fitWidth="505.0" layoutX="758.0" layoutY="554.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="205.0" fitWidth="390.0" layoutX="828.0" layoutY="588.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/QEWFEWEE.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="312.0" fitWidth="400.0" layoutX="877.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo%20(1).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnVolver" layoutX="989.0" layoutY="233.0" mnemonicParsing="false" onAction="#onActionVolver" prefHeight="65.0" prefWidth="163.0" text="regresar" />
+      <ImageView fitHeight="312.0" fitWidth="400.0" layoutX="192.0" layoutY="570.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@graficos/Proyecto%20nuevo%20(1).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="216.0" layoutY="677.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIRA UNA PRUEBA EN VIVO!!!!" wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="98.0" layoutY="639.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALERTA!" textAlignment="CENTER" wrappingWidth="385.0048828125">
+         <font>
+            <Font name="Tahoma Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="901.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Deseas regresar a la pantalla principal?       dale click al boton de abajo" wrappingWidth="352.0048828125">
+         <font>
+            <Font name="Tahoma" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="311.0" layoutY="700.0" mnemonicParsing="false" onAction="#onActionPrueba" prefHeight="46.0" prefWidth="163.0" text="INICIAR" />
+   </children>
+</Pane>
